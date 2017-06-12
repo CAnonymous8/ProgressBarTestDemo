@@ -2,6 +2,7 @@ package com.tencent.neilchen.progressbartestdemo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -12,5 +13,6 @@ public class MainActivity extends AppCompatActivity {
     progressBarView.setMax(100);
     progressBarView.setProgress(45);
     progressBarView.setData("3015分");
+    Log.d(MainActivity.class.getSimpleName(),"revert_text");
   }
 }
