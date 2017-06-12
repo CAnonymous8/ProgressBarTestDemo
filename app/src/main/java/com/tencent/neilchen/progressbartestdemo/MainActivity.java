@@ -14,5 +14,6 @@ public class MainActivity extends AppCompatActivity {
     progressBarView.setProgress(45);
     progressBarView.setData("3015分");
     Log.d(MainActivity.class.getSimpleName(),"revert_text");
+    Log.d(MainActivity.class.getSimpleName(),"revert_text2");
   }
 }
